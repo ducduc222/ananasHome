@@ -77,6 +77,7 @@
 .commentList li {
     margin:0;
     margin-top:10px;
+    
 }
 .commentList li > div {
     display:table-cell;
@@ -93,6 +94,10 @@
 }
 .commentText p {
     margin-right:5px;
+    margin-bottom: 0;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    background-color: #eeeeee;
 }
 .sub-text {
     color:#aaa;
