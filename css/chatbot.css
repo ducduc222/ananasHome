@@ -1,0 +1,125 @@
+#chatbot .icon-chat {
+    position: fixed;
+    right: 0;
+    top: 70%;
+}
+#chatbot .box-chat {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+}
+/* .icon-chat {
+    background-color: black;
+} */
+.icon-chat button {
+    background:none;
+    border: 0;
+    width: 150px;
+    height: 150px;
+}
+.icon-chat img {
+    border-radius: 50% 50%;
+    width: 150px;
+    height: 150px;
+}
+#box-chat {
+    display: none;
+}
+.box-chat {
+    transition: all 0.5s ease; /* Thời gian và hiệu ứng chuyển đổi */
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: bottom right;
+}
+
+.box-chat.hide {
+    opacity: 0;
+    transform: scale(0.1);
+}
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    height: 500px;
+    width:360px;
+    border:1px solid #bbb;
+    margin-right: 30px;
+    background-color: rgb(182, 207, 211);
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+.titleBox button {
+    background: none;
+    border: none;
+}
+.titleBox img {
+    width: 20px;
+}
+
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    /* max-height:200px; */
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin-right:5px;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+    position: relative;
+    min-height: 100%;
+}
+.commentList {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+.form-inline {
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #d8d7d7;
+    display: flex;
+    flex-direction: row;
+}
+

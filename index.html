@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NANA</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/line.css">
+    <link rel="stylesheet" href="./css/category.css">
+    <link rel="stylesheet" href="./css/list-product.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+    <script src="./js/data.js"></script>
+    <script src="./js/chat.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-menu">
+            <ul class="menu">
+                <li>
+                    <a href="">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tra_cuu_don_hang.svg"
+                            alt="">
+                        Tra cứu đơn hàng
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tim_cua_hang.svg"
+                            alt="">
+                        Tìm cửa hàng
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_heart_header.svg"
+                            alt="">
+                        Yêu thích
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images//svg/icon_dang_nhap.svg"
+                            alt="">
+                        Đăng nhập
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_gio_hang.svg"
+                            alt="">
+                        Giỏ hàng
+                        <span id="numOfProductInCard">(0)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-navbar">
+
+            <div class="navbar-logo">
+                    <a href="">
+                        <img src="./assets/NANAa.png">
+                    </a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown sanpham">
+                        <a href="">SẢN PHẨM</a>
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                        
+                    </li>
+                    <li class="">
+                        <a href="">NAM</a>
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                    </li>
+                    <li class="">
+                        <a href="">NỮ</a>
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/DiscoverYOU.svg"
+                                alt="">
+                        </a>
+                    </li>
+                </ul>
+                <form action="" class="navbar-form navbar-right">
+                    <img class="icon-search"
+                        src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tim_kiem.svg" alt="">
+                    <input type="text" name="key" id="" class="form-control" placeholder="Tìm kiếm">
+                </form>
+            </div>
+
+        </div>
+        
+    </header>
+
+    <div class="line">
+        <p>SHOP CỦA NGA - GÌ CŨNG MUỐN THÌ GÌ CŨNG CÓ</p>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="category">
+                <div class="gender">
+                    <ul>
+                        <li><a href="">TẤT CẢ</a></li>
+                        <li class="h"></li>
+                        <li><a href="">NAM</a></li>
+                        <li class="h"></li>
+                        <li><a href="">NỮ</a></li>
+                    </ul>
+                </div>
+                <div class="row-line"></div>
+                <div class="type">
+                    <ul>
+                        <li><a href="">Accessories | Phụ kiện</a></li>
+                        <li><a href="">Footwear | Lên chân</a></li>
+                        <li><a href="">Top | Nửa trên</a></li>
+                    </ul>
+                </div>
+                <div class="row-line"></div>
+                <div class="item-category">
+                    <ul>
+                        <li>
+                            <div class="title-item">
+                                <span href="">TRẠNG THÁI</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li><a href="">Limited Edition</a></li>
+                                <li><a href="">New Arrival</a></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                        <li>
+                            <div class="title-item">
+                                <span href="">DÒNG SẢN PHẨM</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li><a href="">Tote Bag</a></li>
+                                <li><a href="">Socks | Vớ</a></li>
+                                <li><a href="">Hat</a></li>
+                                <li><a href="">Shoelaces</a></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                        <li>
+                            <div class="title-item">
+                                <span href="">GIÁ</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li><a href="">200k - 299k</a></li>
+                                <li><a href="">nhỏ hơn 200k</a></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                        <li>
+                            <div class="title-item">
+                                <span href="">BỘ SƯU TẬP</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li><a href="">Ananas Puppet Club</a></li>
+                                <li><a href="">Ananas "Copy" Store Bag</a></li>
+                                <li><a href="">DiscoverYou</a></li>
+                                <li><a href="">Ananas Typo Logo</a></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                        <li>
+                            <div class="title-item">
+                                <span href="">CHẤT LIỆU</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li><a href="">Canvas</a></li>
+                                <li><a href="">Cotton</a></li>
+                                <li><a href="">Acrylic</a></li>
+                                <li><a href="">Polyester</a></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                        <li>
+                            <div class="title-item">
+                                <span href="">MÀU SẮC</span>
+                                <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_down_black.png" class="caret"></img>
+                            </div>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li class="row-line-2"></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="list-product">
+                <div class="banner">
+                    <img src="https://ananas.vn/wp-content/uploads/desktop_productlist.jpg" alt="">
+                </div>
+                <div class="list">
+                    <ul id="list-item">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            NOBODY
+        </div>
+    </footer>
+
+    <div id="chatbot">
+        <div class="icon-chat">
+            <button id="button-chat" onclick="showBoxChat()">
+                <img src="./assets/chatboticon.jpg" alt="">
+            </button>
+        </div>
+        <div class="box-chat" id="box-chat">
+            <div class="detailBox">
+                <div class="titleBox">
+                    <label>Xin chào!</label>
+                    <button type="button" onclick="showBoxChat()" class="close" aria-hidden="true"><img src="./assets/close.png" alt=""></button>
+                </div>
+                <div class="actionBox">
+                    <ul class="commentList">
+                        <li>
+                            <div class="commenterImage">
+                              <img src="./assets/chatboticon.jpg" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">Xin chào bạn. Tôi có thể giúp gì cho bạn</p>
+                            </div>
+                        </li>
+                        
+                        
+                        <!--  -->
+                    </ul>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Nhập tin nhắn" />
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-default">Gửi</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

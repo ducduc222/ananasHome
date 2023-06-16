@@ -1,0 +1,13 @@
+.line {
+    height: 40px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.line p {
+    margin-top: 100px;
+    line-height: 40px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
